@@ -1,0 +1,166 @@
+@font-face {
+  font-family: "irancel";
+  src: url("../fonts/ایرانسل\ .ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: linear-gradient(to bottom);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "irancel", "Courier New", Courier, monospace;
+}
+
+#select-difficulty {
+  text-align: center;
+}
+
+#select-difficulty h1 {
+  width: 100vw;
+  color: rgb(187, 44, 75);
+  font-size: 3em;
+}
+
+#select-difficulty i {
+  font-size: 2em;
+  color: rgb(187, 44, 75);
+}
+
+#select-difficulty ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+}
+
+#select-difficulty ul li {
+  width: 60%;
+  padding: 20px;
+  background-color: rgb(60, 14, 71);
+  color: rgb(187, 44, 75);
+  font-size: 2em;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#select-difficulty ul li:hover {
+  background-color: rgb(57, 11, 63);
+}
+
+div.game {
+  display: none;
+  margin: 10px auto;
+  text-align: center;
+  border: 1px solid rgb(187, 44, 75);
+  border-radius: 10px;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+form {
+  position: relative;
+}
+
+form span {
+  z-index: -100;
+  position: absolute;
+  font-size: 16em;
+  text-align: center;
+  color: rgba(143, 37, 170, 0.5);
+  left: 182px;
+  top: -14px;
+}
+
+div.game form h1 {
+  color: rgb(187, 44, 75);
+  font-size: 1.5em;
+}
+
+div.game form label {
+  color: rgb(60, 14, 71);
+  font-size: 1.5em;
+}
+
+div.game p {
+  color: rgb(187, 44, 75);
+}
+
+div.game form input[type="number"] {
+  padding: 10px;
+  width: 70%;
+  border-radius: 5px;
+  border: none;
+}
+
+div.game form input[type="submit"] {
+  color: rgb(187, 44, 75);
+  background-color: rgb(60, 14, 71);
+  border: none;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 15px;
+  width: 40%;
+}
+
+main {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  color: rgb(187, 44, 75);
+  background-color: rgb(60, 14, 71);
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid rgb(187, 44, 75);
+}
+
+main a {
+  padding: 15px;
+  border: 1px solid rgb(187, 44, 75);
+  color: rgb(187, 44, 75);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+main a:hover {
+  background-color: rgb(57, 11, 63);
+}
+
+main p {
+  width: 400px;
+  margin: 100px auto;
+  margin-top: 150px;
+}
+
+input[type="button"] {
+  display: none;
+  color: rgb(187, 44, 75);
+  background-color: rgb(60, 14, 71);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+div.downSec {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+div.downSec button {
+  color: rgb(187, 44, 75);
+  background-color: rgb(60, 14, 71);
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}

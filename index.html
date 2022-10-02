@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <script src="./assets/scripts/main.js" defer></script>
+    <title>پروژه حدس اعداد</title>
+</head>
+
+<body>
+    <section id="select-difficulty">
+        <h1>بازی حدس اعداد</h1>
+        <h2>سختی مورد نظر خودتون رو انتخاب کنید</h2>
+        <ul>
+            <li id="easy">راحت (15-1)</li>
+            <li id="medium">متوسط(30-1)</li>
+            <li id="hard">دشوار(50-1)</li>
+        </ul>
+    </section>
+
+    <div class="game">
+        <form id="myForm">
+            <span>16</span>
+            <div>
+                <h1>
+                    Chances:<i class="Chances">5</i>
+                </h1>
+            </div>
+            <label for="guessInput">از 1 تا 15 یک حدس بزنید</label>
+            <br>
+            <input type="number" id="guessInput" min="1" max="50" />
+            <br>
+            <input type="submit" value="حدس" id="guessNumber">
+        </form>
+        <p>راهنما</p>
+        <div class="downSec">
+            <button>از نو بازی کردن</button>
+            <input type="button" class="back" value="بازگشت">
+        </div>
+    </div>
+
+    <main>
+        <p>در این مرحله بعد از زدن دکمه آماده ای یک ثانیه شمار شروع میشود و باید بین بازه یکه انتخاب کرده اید یک عدد را
+            حدس بزنید</p>
+        <a>آماده ای ؟</a>
+    </main>
+
+
+
+</body>
+
+</html>
