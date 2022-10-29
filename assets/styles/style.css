@@ -110,6 +110,7 @@ div.game form input[type="submit"] {
   padding: 10px 20px;
   margin: 15px;
   width: 40%;
+  cursor: pointer;
 }
 
 main {
